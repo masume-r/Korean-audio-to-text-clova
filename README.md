@@ -32,6 +32,8 @@ This project converts Korean audio files to text using the Clova Speech-to-Text 
    - Navigate to the API section and create a new Clova Speech-to-Text API instance.
    - Follow the provided instructions to obtain your `client_id` and `client_secret`.
    - Make sure to review the usage policies and rate limits.
+  
+   - https://api.ncloud-docs.com/docs/ai-application-service-clovaspeech
 
 3. **Dataset Location:**  
    Ensure that the Korean Single Speaker Speech Dataset is extracted and available at:  
