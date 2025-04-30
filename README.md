@@ -76,5 +76,19 @@ This project is provided for educational and research purposes only. Please adhe
 
 
 
+## 📌 기술 평가 항목 대응 내역
+
+본 프로젝트는 Python을 활용하여 한국어 음성 데이터를 Clova Speech-to-Text API를 통해 텍스트로 자동 변환하고, 결과를 CSV 파일로 저장하는 자동화 파이프라인을 구현하였습니다. 다음의 기술 항목을 포함합니다:
+
+- **[1. 데이터사이언스 공통]**  
+  `os`, `csv`, `requests` 라이브러리를 사용하여 음성 파일 탐색, API 통신, 결과 저장을 자동화하였습니다.
+
+- **[3. 데이터 수집 및 정제]**  
+  Clova Open API를 사용하여 `.wav` 파일을 전송하고, 응답받은 텍스트를 정제하여 저장하였습니다. 
+  변환된 텍스트는 `audio_transcriptions.csv` 형식으로 저장되어 후속 분석 및 자연어처리에 활용할 수 있습니다.
+
+
+
+
 
    
